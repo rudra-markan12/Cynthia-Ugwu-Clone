@@ -1,0 +1,7 @@
+function abcd()
+{
+window.addEventListner("mouseove" , function(dets){
+    document.querySelectors("#semicircle").style.transform = `translate(${cilentX} , ${cilentY})`;
+})
+}
+abcd();
